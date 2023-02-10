@@ -1,10 +1,10 @@
 .attribution {
   font-size: 11px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(338, 61%, 45%);
 }
 
 :root {
@@ -102,4 +102,91 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .about {
+    display: flex;
+    flex-direction: row;
+  }
+  .container .about .content {
+    flex: 1;
+  }
+  .container .about .ratings {
+    flex: 1;
+  }
+  .container .about .content h1 {
+    padding: 0 300px 0 0;
+    font-size: 50px;
+    text-align: left;
+  }
+  .container .about .content p {
+    text-align: left;
+    padding: 0 200px 0 0;
+    padding-top: 10px;
+    line-height: 1.2;
+  }
+  .container .ratings {
+    margin-top: 30px;
+  }
+  .container .ratings .rating {
+    display: flex;
+    max-width: 35rem;
+  }
+  .container .ratings picture {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+  }
+  .container .ratings picture img {
+    max-width: 100%;
+    padding: 0 2px;
+  }
+  .container .ratings p {
+    flex: 1;
+    position: relative;
+    right: 30px;
+    bottom: 3px;
+  }
+  .container .ratings article:nth-child(2n + 1) p {
+    position: relative;
+    right: 47px;
+  }
+  .container .ratings article:nth-child(2) {
+    position: relative;
+    left: 50px;
+  }
+  .container .ratings article:nth-child(3) {
+    position: relative;
+    left: 100px;
+  }
+
+  .container .cards {
+    display: flex;
+  }
+  .container .cards .card article:last-child {
+    padding: 0 20px;
+  }
+  .container .cards section:nth-child(1) {
+    flex: 1;
+    margin-right: 40px;
+  }
+  .container .cards section:nth-child(2) {
+    flex: 1;
+    margin-right: 40px;
+    position: relative;
+    top: 20px;
+  }
+  .container .cards section:nth-child(3) {
+    flex: 1;
+    position: relative;
+    top: 40px;
+  }
 }
