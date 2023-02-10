@@ -1,0 +1,105 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-size: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  padding: 30px;
+}
+.container .about .content h1 {
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 0 10%;
+  font-size: 40px;
+  text-align: center;
+  line-height: 0.8;
+  color: var(--Very-Dark-Magenta);
+}
+.container .about .content p {
+  padding: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--Dark-Grayish-Magenta);
+  margin-bottom: 40px;
+}
+.container .about .ratings {
+  margin-bottom: 50px;
+}
+.container .about .rating {
+  background-color: var(--Light-Grayish-Magenta);
+  margin: 15px 0;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+.container .about .rating p {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--Very-Dark-Magenta);
+}
+.container .cards .card {
+  margin: 20px 0;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--Very-Dark-Magenta);
+}
+.container .cards .card img {
+  max-width: 45px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: relative;
+}
+.container .cards .card {
+  margin: 20px 0;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--Very-Dark-Magenta);
+}
+.container .cards .card article:first-child {
+  display: flex;
+  margin-bottom: 30px;
+}
+.container .cards .card article:first-child p {
+  font-size: 17px;
+}
+.container .cards .card article:first-child p:first-child {
+  font-weight: 500;
+}
+.container .cards .card article:first-child p:last-child {
+  font-weight: 400;
+  color: var(--Soft-Pink);
+}
+.container .cards .card article:last-child {
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+}
